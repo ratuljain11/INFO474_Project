@@ -1,0 +1,196 @@
+county,country,value
+Yakima,Socioeconomic,0.8439
+Yakima,Household Composition & Disability,0.7342
+Yakima,Minority Status & Language,0.9704
+Yakima,Housing Type & Transportation,0.7915
+Yakima,SVI Averages,0.9277
+Lewis,Socioeconomic,0.6242
+Lewis,Household Composition & Disability,0.7606
+Lewis,Minority Status & Language,0.6657
+Lewis,Housing Type & Transportation,0.8255
+Lewis,SVI Averages,0.7889
+Asotin,Socioeconomic,0.4548
+Asotin,Household Composition & Disability,0.8418
+Asotin,Minority Status & Language,0.256
+Asotin,Housing Type & Transportation,0.3142
+Asotin,SVI Averages,0.4248
+Skamania,Socioeconomic,0.285
+Skamania,Household Composition & Disability,0.1114
+Skamania,Minority Status & Language,0.3715
+Skamania,Housing Type & Transportation,0.4069
+Skamania,SVI Averages,0.2194
+Stevens,Socioeconomic,0.5497
+Stevens,Household Composition & Disability,0.6418
+Stevens,Minority Status & Language,0.3534
+Stevens,Housing Type & Transportation,0.3168
+Stevens,SVI Averages,0.4615
+Clark,Socioeconomic,0.1774
+Clark,Household Composition & Disability,0.2206
+Clark,Minority Status & Language,0.7482
+Clark,Housing Type & Transportation,0.3658
+Clark,SVI Averages,0.2857
+Thurston,Socioeconomic,0.2529
+Thurston,Household Composition & Disability,0.2041
+Thurston,Minority Status & Language,0.6925
+Thurston,Housing Type & Transportation,0.4518
+Thurston,SVI Averages,0.3299
+Cowlitz,Socioeconomic,0.5968
+Cowlitz,Household Composition & Disability,0.9252
+Cowlitz,Minority Status & Language,0.5893
+Cowlitz,Housing Type & Transportation,0.7555
+Cowlitz,SVI Averages,0.7885
+Garfield,Socioeconomic,0.3949
+Garfield,Household Composition & Disability,0.7472
+Garfield,Minority Status & Language,0.2334
+Garfield,Housing Type & Transportation,0.0201
+Garfield,SVI Averages,0.1834
+Grays Harbor,Socioeconomic,0.6465
+Grays Harbor,Household Composition & Disability,0.8141
+Grays Harbor,Minority Status & Language,0.709
+Grays Harbor,Housing Type & Transportation,0.8972
+Grays Harbor,SVI Averages,0.8392
+Island,Socioeconomic,0.1465
+Island,Household Composition & Disability,0.2311
+Island,Minority Status & Language,0.5285
+Island,Housing Type & Transportation,0.2442
+Island,SVI Averages,0.1857
+Kitsap,Socioeconomic,0.1245
+Kitsap,Household Composition & Disability,0.2104
+Kitsap,Minority Status & Language,0.525
+Kitsap,Housing Type & Transportation,0.6507
+Kitsap,SVI Averages,0.2825
+Kittitas,Socioeconomic,0.478
+Kittitas,Household Composition & Disability,0.0178
+Kittitas,Minority Status & Language,0.5145
+Kittitas,Housing Type & Transportation,0.5148
+Kittitas,SVI Averages,0.2831
+Mason,Socioeconomic,0.5876
+Mason,Household Composition & Disability,0.6845
+Mason,Minority Status & Language,0.7332
+Mason,Housing Type & Transportation,0.4215
+Mason,SVI Averages,0.6382
+Klickitat,Socioeconomic,0.557
+Klickitat,Household Composition & Disability,0.3913
+Klickitat,Minority Status & Language,0.7437
+Klickitat,Housing Type & Transportation,0.4639
+Klickitat,SVI Averages,0.5723
+San Juan,Socioeconomic,0.0404
+San Juan,Household Composition & Disability,0.093
+San Juan,Minority Status & Language,0.4454
+San Juan,Housing Type & Transportation,0.2343
+San Juan,SVI Averages,0.0863
+Snohomish,Socioeconomic,0.1045
+Snohomish,Household Composition & Disability,0.0799
+Snohomish,Minority Status & Language,0.8367
+Snohomish,Housing Type & Transportation,0.5527
+Snohomish,SVI Averages,0.2755
+Benton,Socioeconomic,0.3038
+Benton,Household Composition & Disability,0.5371
+Benton,Minority Status & Language,0.8437
+Benton,Housing Type & Transportation,0.5212
+Benton,SVI Averages,0.514
+Chelan,Socioeconomic,0.442
+Chelan,Household Composition & Disability,0.4744
+Chelan,Minority Status & Language,0.8825
+Chelan,Housing Type & Transportation,0.7641
+Chelan,SVI Averages,0.678
+Clallam,Socioeconomic,0.4478
+Clallam,Household Composition & Disability,0.6546
+Clallam,Minority Status & Language,0.5861
+Clallam,Housing Type & Transportation,0.7552
+Clallam,SVI Averages,0.6146
+Jefferson,Socioeconomic,0.2618
+Jefferson,Household Composition & Disability,0.2585
+Jefferson,Minority Status & Language,0.3572
+Jefferson,Housing Type & Transportation,0.3607
+Jefferson,SVI Averages,0.2414
+Lincoln,Socioeconomic,0.2914
+Lincoln,Household Composition & Disability,0.687
+Lincoln,Minority Status & Language,0.2792
+Lincoln,Housing Type & Transportation,0.0863
+Lincoln,SVI Averages,0.1984
+Pierce,Socioeconomic,0.2634
+Pierce,Household Composition & Disability,0.2894
+Pierce,Minority Status & Language,0.8223
+Pierce,Housing Type & Transportation,0.7046
+Pierce,SVI Averages,0.4873
+Spokane,Socioeconomic,0.301
+Spokane,Household Composition & Disability,0.3553
+Spokane,Minority Status & Language,0.5715
+Spokane,Housing Type & Transportation,0.7896
+Spokane,SVI Averages,0.4825
+Walla Walla,Socioeconomic,0.4382
+Walla Walla,Household Composition & Disability,0.2232
+Walla Walla,Minority Status & Language,0.8411
+Walla Walla,Housing Type & Transportation,0.9484
+Walla Walla,SVI Averages,0.6831
+Whatcom,Socioeconomic,0.3672
+Whatcom,Household Composition & Disability,0.049
+Whatcom,Minority Status & Language,0.694
+Whatcom,Housing Type & Transportation,0.8781
+Whatcom,SVI Averages,0.4541
+Ferry,Socioeconomic,0.7596
+Ferry,Household Composition & Disability,0.8179
+Ferry,Minority Status & Language,0.6457
+Ferry,Housing Type & Transportation,0.7033
+Ferry,SVI Averages,0.8223
+Okanogan,Socioeconomic,0.7634
+Okanogan,Household Composition & Disability,0.9701
+Okanogan,Minority Status & Language,0.8889
+Okanogan,Housing Type & Transportation,0.744
+Okanogan,SVI Averages,0.9255
+Columbia,Socioeconomic,0.2092
+Columbia,Household Composition & Disability,0.6323
+Columbia,Minority Status & Language,0.6243
+Columbia,Housing Type & Transportation,0.2372
+Columbia,SVI Averages,0.3146
+Douglas,Socioeconomic,0.4357
+Douglas,Household Composition & Disability,0.9624
+Douglas,Minority Status & Language,0.9067
+Douglas,Housing Type & Transportation,0.5845
+Douglas,SVI Averages,0.7707
+Pacific,Socioeconomic,0.665
+Pacific,Household Composition & Disability,0.7307
+Pacific,Minority Status & Language,0.7396
+Pacific,Housing Type & Transportation,0.5345
+Pacific,SVI Averages,0.736
+Pend Oreille,Socioeconomic,0.4927
+Pend Oreille,Household Composition & Disability,0.8223
+Pend Oreille,Minority Status & Language,0.2894
+Pend Oreille,Housing Type & Transportation,0.5683
+Pend Oreille,SVI Averages,0.536
+Skagit,Socioeconomic,0.3379
+Skagit,Household Composition & Disability,0.4295
+Skagit,Minority Status & Language,0.8284
+Skagit,Housing Type & Transportation,0.6234
+Skagit,SVI Averages,0.5382
+Wahkiakum,Socioeconomic,0.2271
+Wahkiakum,Household Composition & Disability,0.4865
+Wahkiakum,Minority Status & Language,0.382
+Wahkiakum,Housing Type & Transportation,0.1133
+Wahkiakum,SVI Averages,0.1809
+King,Socioeconomic,0.0885
+King,Household Composition & Disability,0.0134
+King,Minority Status & Language,0.9048
+King,Housing Type & Transportation,0.8666
+King,SVI Averages,0.2854
+Whitman,Socioeconomic,0.7064
+Whitman,Household Composition & Disability,0.0019
+Whitman,Minority Status & Language,0.6893
+Whitman,Housing Type & Transportation,0.8828
+Whitman,SVI Averages,0.5108
+Grant,Socioeconomic,0.701
+Grant,Household Composition & Disability,0.5167
+Grant,Minority Status & Language,0.951
+Grant,Housing Type & Transportation,0.7982
+Grant,SVI Averages,0.8452
+Franklin,Socioeconomic,0.7357
+Franklin,Household Composition & Disability,0.5756
+Franklin,Minority Status & Language,0.9764
+Franklin,Housing Type & Transportation,0.7813
+Franklin,SVI Averages,0.8691
+Adams,Socioeconomic,0.9274
+Adams,Household Composition & Disability,0.6008
+Adams,Minority Status & Language,0.9869
+Adams,Housing Type & Transportation,0.8933
+Adams,SVI Averages,0.9621
