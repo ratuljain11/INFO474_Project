@@ -6,7 +6,7 @@ const svg = d3.select("svg"),
 // Map and projection
 const path = d3.geoPath();
 const projection = d3.geoMercator()
-  .scale(300)
+  .scale(400)
   .center([-100,20])
   .translate([width / 2, height / 2]);
 
@@ -20,7 +20,6 @@ const colorScale = d3.scaleThreshold()
 Promise.all([
 d3.json("states.geojson"),
 d3.csv("data.csv", function(d) {
-    console.log(d.code);
     data.set(d.code, +d.pop)
 })]).then(function(loadData){
 
@@ -35,6 +34,7 @@ d3.csv("data.csv", function(d) {
       .duration(200)
       .style("opacity", 1)
       .style("stroke", "black")
+      
   }
 
   let mouseLeave = function(d) {
@@ -58,18 +58,37 @@ d3.csv("data.csv", function(d) {
       .attr("d", d3.geoPath()
         .projection(projection)
       )
+
       // set the color of each country
       .attr("fill", function (d) {
-        console.log(d.id)
         d.total = data.get(d.id) || 0;
-        console.log(data.get(d.id));
         return colorScale(d.total);
       })
-      .style("stroke", "transparent")
+      .text(function(d){ return d.id})
+      .attr("text-anchor", "middle")
+      .style("stroke", "black")
       .attr("class", function(d){ return "Country" } )
       .style("opacity", .8)
       .on("mouseover", mouseOver )
       .on("mouseleave", mouseLeave )
+
+      svg.append("g")
+      .selectAll("labels")
+      .data(topo.features)
+      .enter()
+      .append("text")
+        .attr("x", function(d){return d3.geoPath()
+            .projection(projection).centroid(d)[0];})
+        .attr("y", function(d){return d3.geoPath()
+            .projection(projection).centroid(d)[1];})
+        .text(function(d){ return d.id})
+        .attr("text-anchor", "middle")
+        .attr("alignment-baseline", "central")
+        .style("font-size", 7)
+        .style("fill", "black")
+
+      
    
+      
 })
 
