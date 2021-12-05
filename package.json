@@ -1,0 +1,14 @@
+{
+  "name": "312a02264ce1a959",
+  "main": "312a02264ce1a959@552.js",
+  "version": "552.0.0",
+  "homepage": "https://observablehq.com/d/312a02264ce1a959",
+  "author": {
+    "name": "ratuljain11",
+    "url": "https://observablehq.com/@ratuljain11"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
