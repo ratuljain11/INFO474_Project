@@ -9,7 +9,10 @@
 
 <body>
     <div id="main">
-        <header>United States Social Vulnerability Index (SVI) Choropleth</header><br>
+        <header className="center">United States Social Vulnerability Index (SVI)</header><br>
+        <p> SVI is a score created to assist public health officials and emergency responders when deciding which communities are in more likely need for support before, during and after hazardous events. These hazardous events could include diseases, natural disasters, chemical spills, and more. SVI is referred to as the effect of external stresses that impacts communities and health. These stresses can be natural or human-caused and is measured using 15 different census variables that together create a social vulnerability score at the state and county level. These variables are grouped into four themes: Socioeconomic Status (SES), household composition, race/ethnicity/language, and housing/transportation.</p>
+        <br>
+        <h1>2018 United States Social Vulnerability Index (SVI) Choropleth</h1><br>
         <div class="grid-container">
             <div class="grid-child green">
                 <svg id="map" width="900" height="500"></svg>
@@ -45,7 +48,7 @@
                 </div>
             </div>
             <div class="grid-child red">
-                <h1>SVI For the Selected State:</h1><br>
+                <h1>SVI For the Selected County in WA State:</h1><br>
                 <svg id="bar" width="1000" height="500"></svg>
             </div>
             <div class="grid-child blue">
@@ -92,6 +95,10 @@
                     <option value="Franklin">Franklin</option>
                     <option value="Adams">Adams</option>
                 </select>
+            </div>
+            <div className="grid-child">
+                <h1>About the Data</h1>
+                <p>The data used to create these visualizations come from the CDC’s compilation of US census data and more information about this dataset can be found on their <a href="https://www.atsdr.cdc.gov/placeandhealth/svi/documentation/SVI_documentation_2018.html">website</a> and <a href="https://www.atsdr.cdc.gov/placeandhealth/svi/documentation/pdf/SVI2018Documentation-H.pdf">documentation.</a> </p>
             </div>
         </div>
     </div>
