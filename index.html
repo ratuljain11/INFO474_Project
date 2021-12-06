@@ -9,55 +9,91 @@
 
 <body>
     <div id="main">
-        <svg id="map" width="1000" height="500"></svg>
-        <svg id="bar" width="1000" height="500">
-
-        </svg>
-        <select class="custom-select" id="categorySelect" onchange="onCategoryChanged()">
-            <option selected value="King">King</option>
-            <option value="Test">test</option>
-            <option value="only-vowels">Only Vowels</option>
-            <option value="Yakima">Yakima</option>
-            <option value="Lewis">Lewis</option>
-            <option value="Asotin">Asotin</option>
-            <option value="Skamania">Skamania</option>
-            <option value="Stevens">Stevens</option>
-            <option value="Clark">Clark</option>
-            <option value="Thurston">Thurston</option>
-            <option value="Cowlitz">Cowlitz</option>
-            <option value="Garfield">Garfield</option>
-            <option value="Grays Harbor">Grays Harbor</option>
-            <option value="Island">Island</option>
-            <option value="Kitsap">Kitsap</option>
-            <option value="Kittitas">Kittitas</option>
-            <option value="Mason">Mason</option>
-            <option value="Klickitat">Klickitat</option>
-            <option value="San Juan">San Juan</option>
-            <option value="Snohomish">Snohomish</option>
-            <option value="Benton">Benton</option>
-            <option value="Chelan">Chelan</option>
-            <option value="Clallam">Clallam</option>
-            <option value="Jefferson">Jefferson</option>
-            <option value="Lincoln">Lincoln</option>
-            <option value="Pierce">Pierce</option>
-            <option value="Spokane">Spokane</option>
-            <option value="Walla Walla">Walla Walla</option>
-            <option value="Whatcom">Whatcom</option>
-            <option value="Ferry">Ferry</option>
-            <option value="Okanogan">Okanogan</option>
-            <option value="Columbia">Columbia</option>
-            <option value="Douglas">Douglas</option>
-            <option value="Pacific">Pacific</option>
-            <option value="Pend Oreille">Pend Oreille</option>
-            <option value="Skagit">Skagit</option>
-            <option value="Wahkiakum">Wahkiakum</option>
-            <option value="King">King</option>
-            <option value="Whitman">Whitman</option>
-            <option value="Grant">Grant</option>
-            <option value="Franklin">Franklin</option>
-            <option value="Adams">Adams</option>
-        </select>
-
+        <header>United States Social Vulnerability Index (SVI) Choropleth</header><br>
+        <div class="grid-container">
+            <div class="grid-child green">
+                <svg id="map" width="900" height="500"></svg>
+            </div>
+            <div class="grid-child purple">
+                <label>Legend</label>
+                <div class="b0"> 
+                    <span>SVI Average Value 0.1</span> 
+                </div> 
+                <div class="b1"> 
+                    <span>SVI Average Value 0.2</span> 
+                </div>
+                <div class="b2"> 
+                    <span>SVI Average Value 0.3</span> 
+                </div>
+                <div class="b3"> 
+                    <span>SVI Average Value 0.4</span> 
+                </div>
+                <div class="b4"> 
+                    <span>SVI Average Value 0.5</span> 
+                </div>
+                <div class="b5"> 
+                    <span>SVI Average Value 0.6</span> 
+                </div>
+                <div class="b6"> 
+                    <span>SVI Average Value 0.7</span> 
+                </div>
+                <div class="b7"> 
+                    <span>SVI Average Value 0.8</span> 
+                </div>
+                <div class="b8"> 
+                    <span>SVI Average Value 0.9</span> 
+                </div>
+            </div>
+            <div class="grid-child red">
+                <h1>SVI For the Selected State:</h1><br>
+                <svg id="bar" width="1000" height="500"></svg>
+            </div>
+            <div class="grid-child blue">
+                <label for="categorySelect">Show County: </label> <br>
+                <select class="custom-select" id="categorySelect" onchange="onCategoryChanged()">
+                    <option selected value="King">King</option>
+                    <option value="Yakima">Yakima</option>
+                    <option value="Lewis">Lewis</option>
+                    <option value="Asotin">Asotin</option>
+                    <option value="Skamania">Skamania</option>
+                    <option value="Stevens">Stevens</option>
+                    <option value="Clark">Clark</option>
+                    <option value="Thurston">Thurston</option>
+                    <option value="Cowlitz">Cowlitz</option>
+                    <option value="Garfield">Garfield</option>
+                    <option value="Grays Harbor">Grays Harbor</option>
+                    <option value="Island">Island</option>
+                    <option value="Kitsap">Kitsap</option>
+                    <option value="Kittitas">Kittitas</option>
+                    <option value="Mason">Mason</option>
+                    <option value="Klickitat">Klickitat</option>
+                    <option value="San Juan">San Juan</option>
+                    <option value="Snohomish">Snohomish</option>
+                    <option value="Benton">Benton</option>
+                    <option value="Chelan">Chelan</option>
+                    <option value="Clallam">Clallam</option>
+                    <option value="Jefferson">Jefferson</option>
+                    <option value="Lincoln">Lincoln</option>
+                    <option value="Pierce">Pierce</option>
+                    <option value="Spokane">Spokane</option>
+                    <option value="Walla Walla">Walla Walla</option>
+                    <option value="Whatcom">Whatcom</option>
+                    <option value="Ferry">Ferry</option>
+                    <option value="Okanogan">Okanogan</option>
+                    <option value="Columbia">Columbia</option>
+                    <option value="Douglas">Douglas</option>
+                    <option value="Pacific">Pacific</option>
+                    <option value="Pend Oreille">Pend Oreille</option>
+                    <option value="Skagit">Skagit</option>
+                    <option value="Wahkiakum">Wahkiakum</option>
+                    <option value="King">King</option>
+                    <option value="Whitman">Whitman</option>
+                    <option value="Grant">Grant</option>
+                    <option value="Franklin">Franklin</option>
+                    <option value="Adams">Adams</option>
+                </select>
+            </div>
+        </div>
     </div>
 
 </body>

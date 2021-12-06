@@ -1,12 +1,47 @@
 .axis-label {
-    text-anchor: middle;
+    text-anchor: left;
     font-size: 12px;
     font-weight: semibold;
+}
+
+header {
+    display: block;
+    font-size: 30px;
+    text-align: center;
+}
+
+label {
+    text-align: left;
+}
+
+span {
+    padding: 2px;
+    font-size: 12px;
+    width: 50px;
+}
+
+div {
+    width: fit-content; 
+    height: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 800px 200px;
+    grid-template-rows: 600px 500px;
+  }
+
+.b5,.b6, .b7, .b8 {
+    color: white;
 }
 
 body {
     font-family: "Open Sans";
     margin: 0;
+}
+
+h1 {
+    font-size: 20px;
 }
 
 #main {

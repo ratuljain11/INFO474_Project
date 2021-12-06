@@ -21,7 +21,15 @@ const projection = d3.geoMercator()
 const data = new Map();
 const colorScale = d3.scaleThreshold()
   .domain([0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1])
-  .range(d3.schemeBlues[7]);
+  .range(d3.schemeBlues[9]);
+
+//color legend
+var colorLegend = [];
+for (let i = 0; i < 9; i++) {
+  colorLegend.push(d3.schemeBlues[9][i]);
+  let b = document.querySelector(".b" + i);
+  b.style.backgroundColor = colorLegend[i];
+}
 
 // Load external data and boot
 Promise.all([
@@ -92,9 +100,11 @@ d3.csv("checker.csv", function(d) {
         .attr("text-anchor", "middle")
         .attr("alignment-baseline", "central")
         .style("font-size", 7)
-        .style("fill", "black")  
-      
+        .style("fill", "black")
+  
 })
+
+
 
 // set the dimensions and margins of the graph
 const margin = {top: 30, right: 30, bottom: 70, left: 60},
@@ -131,7 +141,7 @@ function updateChart(countyName){
       .attr("transform", `translate(0, ${height1})`)
       .call(d3.axisBottom(x))
       .selectAll("text")
-        .attr("transform", "translate(-10,0)rotate(-45)")
+        .attr("transform", "translate(15,0)rotate(-15)")
         .style("text-anchor", "end");
     
     // Add Y axis
