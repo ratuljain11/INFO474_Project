@@ -5,17 +5,20 @@
         <title>SVI Analysis</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
         <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,700&family=Forum&family=Overlock&display=swap" rel="stylesheet">
     </head>
 
 <body>
     <div id="main">
-        <header className="center">United States Social Vulnerability Index (SVI)</header><br>
+        <header>United States Social Vulnerability Index (SVI)</header><br>
         <p> SVI is a score created to assist public health officials and emergency responders when deciding which communities are in more likely need for support before, during and after hazardous events. These hazardous events could include diseases, natural disasters, chemical spills, and more. SVI is referred to as the effect of external stresses that impacts communities and health. These stresses can be natural or human-caused and is measured using 15 different census variables that together create a social vulnerability score at the state and county level. These variables are grouped into four themes: Socioeconomic Status (SES), household composition, race/ethnicity/language, and housing/transportation.</p>
         <br>
         <h1>2018 United States Social Vulnerability Index (SVI) Choropleth</h1><br>
         <div class="grid-container">
             <div class="grid-child green">
-                <svg id="map" width="900" height="500"></svg>
+                <svg id="map" className="center" width="1000" height="600"></svg>
             </div>
             <div class="grid-child purple">
                 <label>Legend</label>

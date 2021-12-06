@@ -6,8 +6,9 @@
 
 header {
     display: block;
-    font-size: 30px;
+    font-size: 32px;
     text-align: center;
+    font-family: 'Cabin', sans-serif;;
 }
 
 label {
@@ -40,12 +41,13 @@ div {
 }
 
 body {
-    font-family: "Open Sans";
+    font-family: 'Overlock', cursive;
     margin: 0;
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 28px;
+    font-family: 'Forum', cursive;
 }
 
 #main {
