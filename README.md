@@ -1,33 +1,10 @@
-# Choropleth
+# SVI Choropleth
 
-https://observablehq.com/d/312a02264ce1a959@552
+Link to hosted system:
 
-View this notebook in your browser by running a web server in this folder. For
-example:
+How to run the system locally:
 
-~~~sh
-npx http-server
-~~~
-
-Or, use the [Observable Runtime](https://github.com/observablehq/runtime) to
-import this module directly into your application. To npm install:
-
-~~~sh
-npm install @observablehq/runtime@4
-npm install https://api.observablehq.com/d/312a02264ce1a959@552.tgz?v=3
-~~~
-
-Then, import your notebook and the runtime as:
-
-~~~js
-import {Runtime, Inspector} from "@observablehq/runtime";
-import define from "312a02264ce1a959";
-~~~
-
-To log the value of the cell named “foo”:
-
-~~~js
-const runtime = new Runtime();
-const main = runtime.module(define);
-main.value("foo").then(value => console.log(value));
-~~~
+Navigate to the folder /INFO474_Project in the command prompt.
+On Python 2.x, run the command python -m SimpleHTTPServer 8080
+On Python 3.x or higher, run the command python -m http.server 8080
+Open your browser and type http://localhost:8080/ in the URL bar and press enter or go

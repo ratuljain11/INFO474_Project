@@ -20,6 +20,10 @@ span {
     width: 50px;
 }
 
+.tick.text {
+    font-size: 12px;
+}
+
 div {
     width: fit-content; 
     height: 20px;
