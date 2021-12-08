@@ -1,6 +1,7 @@
 # SVI Choropleth
 
 Link to hosted system:
+https://ratuljain11.github.io/INFO474_Project/
 
 How to run the system locally:
 

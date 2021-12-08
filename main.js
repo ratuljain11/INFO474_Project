@@ -65,7 +65,7 @@ Promise.all([
 
     var mousemove = function (d) {
       Tooltip
-        .html(d.properties.NAME + "<br>SVI INdex: " + Math.round(d.total * 100) / 100)
+        .html(d.properties.NAME + "<br>SVI Index: " + Math.round(d.total * 100) / 100)
         .style("left", (d3.mouse(this)[0] + 10) + "px")
         .style("top", (d3.mouse(this)[1]) + "px")
     }
